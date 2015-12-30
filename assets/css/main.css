@@ -2883,16 +2883,17 @@ a:hover {
 .block-title {
   font-size: 30px;
   margin: 0;
-  margin-bottom: 15px; }
+  margin-bottom: 5px; }
 
 .block-description {
   margin: 0;
-  margin-bottom: 15px; }
+  margin-bottom: 10px;
+  font-size: 18px; }
 
 .item-service {
   text-align: center; }
   .item-service .icon {
-    font-size: 30px; }
+    font-size: 40px; }
 
 .block-sep {
   margin: 20px auto 60px auto;
@@ -2917,8 +2918,11 @@ a:hover {
   padding-bottom: 100px; }
 
 .service-description {
-  margin-top: 18px;
   margin-bottom: 34px; }
+
+.service-title {
+  margin-top: 20px;
+  font-size: 18px; }
 
 .button,
 .button-service {
