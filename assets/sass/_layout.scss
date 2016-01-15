@@ -1,2 +1,70 @@
-body {
+.block-header {
+    text-align: center;
+}
+
+.block-title {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.block-description {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.item-service {
+    text-align: center;
+
+    .icon {
+        font-size: 40px;
+    }
+}
+
+.block-sep {
+    margin: 20px auto 60px auto;
+    width: 280px;
+    height: 1px;
+    position: relative;
+
+    &:before,
+    &:after {
+        display: block;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: -8px;
+        content: '';
+        border-radius: 50%;
+    }
+
+    &:before {
+        left: 0;
+    }
+
+    &:after {
+        right: 0;
+    }
+}
+
+.services {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.service-description {
+    margin-bottom: 34px;
+}
+
+.service-title {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.button,
+.button-service {
+    font-size: 1.1rem;
+    padding: 11px 30px;
+    border-radius: 2px;
 }

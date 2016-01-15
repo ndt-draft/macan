@@ -1,0 +1,16 @@
+.primary-color {
+    background-color: $color-primary;
+    color: $color-white;
+
+    .block-sep,
+    .block-sep:before,
+    .block-sep:after {
+        background-color: $color-white;
+    }
+
+    .button,
+    .button-service {
+        color: $color-white;
+        background-color: $color-red;
+    }
+}
