@@ -1,0 +1,20 @@
+.header {
+    background-color: $color-header;
+    color: $color-white;
+}
+
+.logo {
+    float: left;
+}
+
+.main-menu {
+    float: right;
+
+    ul, li {
+        list-style: none;
+    }
+
+    li {
+        float: left;
+    }
+}

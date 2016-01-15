@@ -1107,6 +1107,46 @@ address {
   font-style: normal;
   line-height: 1.5; }
 
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.pull-right {
+  float: right !important; }
+
+.pull-left {
+  float: left !important; }
+
+.hide {
+  display: none !important; }
+
+.show {
+  display: block !important; }
+
+.invisible {
+  visibility: hidden; }
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+.hidden {
+  display: none !important; }
+
+.affix {
+  position: fixed; }
+
 /*!
  *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -3241,6 +3281,20 @@ a:hover {
   font-size: 1.1rem;
   padding: 11px 30px;
   border-radius: 2px; }
+
+.header {
+  background-color: #0d0b11;
+  color: #fff; }
+
+.logo {
+  float: left; }
+
+.main-menu {
+  float: right; }
+  .main-menu ul, .main-menu li {
+    list-style: none; }
+  .main-menu li {
+    float: left; }
 
 .primary-color {
   background-color: #475a85;
