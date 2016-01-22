@@ -1,0 +1,25 @@
+.features {
+    background-color: $color-block-features;
+    padding: 40px 0;
+    position: relative;
+
+    .featured-title,
+    .featured-description {
+        margin: 0;
+        color: $color-white;
+    }
+
+    .featured-button {
+        background-color: $color-red;
+        color: white;
+        padding: 20px 50px;
+        border-radius: 3px;
+        display: inline-block;
+    }
+
+    .featured-text-container {
+        position:absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

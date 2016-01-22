@@ -17,8 +17,14 @@
 // Icons
 @import "../../bower_components/components-font-awesome/scss/font-awesome";
 
+// Hover
+@import "hover";
+
 // Custom components
 @import "common";
 @import "layout";
 @import "header";
 @import "colors";
+
+// Blocks
+@import "blocks/features";
