@@ -18,8 +18,11 @@
     }
 
     .featured-text-container {
-        position:absolute;
-        top: 50%;
-        transform: translateY(-50%);
+        margin-top: 10%;
+    }
+
+    .featured-image {
+        max-width: 100%;
+        height: auto;
     }
 }

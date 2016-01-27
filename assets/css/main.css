@@ -3396,6 +3396,7 @@ a:hover {
     border-radius: 3px;
     display: inline-block; }
   .features .featured-text-container {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%); }
+    margin-top: 10%; }
+  .features .featured-image {
+    max-width: 100%;
+    height: auto; }
