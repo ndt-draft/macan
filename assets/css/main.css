@@ -3398,9 +3398,11 @@ a:hover {
     color: white;
     padding: 20px 50px;
     border-radius: 3px;
-    display: inline-block; }
+    display: inline-block;
+    font-size: 1.8rem;
+    font-size: 18px; }
   .features .featured-text-inside {
-    margin-top: 12%; }
+    margin-top: 7%; }
   .features .featured-title {
     margin-bottom: 6%; }
   .features .featured-description {
