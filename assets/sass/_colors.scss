@@ -14,3 +14,11 @@
         background-color: $color-red;
     }
 }
+
+.white-primary-color {
+    .block-sep,
+    .block-sep:before,
+    .block-sep:after {
+        background-color: $color-text-dark;
+    }
+}

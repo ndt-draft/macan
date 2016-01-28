@@ -196,7 +196,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  color: #333333;
+  color: #323232;
   background-color: #fff; }
 
 input,
@@ -3231,6 +3231,10 @@ address {
 a:hover {
   text-decoration: none; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 .block-header {
   text-align: center; }
 
@@ -3385,6 +3389,11 @@ a:hover {
     color: #fff;
     background-color: #ea5b58; }
 
+.white-primary-color .block-sep,
+.white-primary-color .block-sep:before,
+.white-primary-color .block-sep:after {
+  background-color: #323232; }
+
 .features {
   background-color: #161828;
   padding: 40px 0;
@@ -3435,3 +3444,30 @@ a:hover {
   .parallax .parallax-title {
     margin-bottom: 20px;
     font-size: 48px; }
+
+.portfolios .portfolios-items {
+  margin-bottom: 40px; }
+
+.portfolios .portfolios-filter {
+  text-align: center;
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin-bottom: 40px; }
+  .portfolios .portfolios-filter .portfolios-filter-link {
+    color: #a7a7a7; }
+  .portfolios .portfolios-filter .portfolios-filter-active {
+    color: #323232; }
+
+.portfolios .portfolio-item {
+  text-align: center;
+  position: relative; }
+
+.portfolios .portfolio-item-detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto 15px;
+  padding: 0 30px;
+  display: table; }

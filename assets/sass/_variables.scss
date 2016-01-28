@@ -7,6 +7,9 @@ $font-family-base: "Open Sans", sans-serif;
 // type
 $headings-font-weight: 700;
 
+// color
+$text-color: #323232;
+
 //=====custom
 $color-primary: #475a85;
 $color-white: #fff;
@@ -14,5 +17,8 @@ $color-red: #ea5b58;
 
 $color-header: #0d0b11;
 $color-block-features: #161828;
+
+$color-text-dark: $text-color;
+$color-text-light: #a7a7a7;
 
 $parralax-pattern: "../images/pattern.jpg";

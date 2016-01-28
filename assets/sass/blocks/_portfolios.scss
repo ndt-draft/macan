@@ -1,0 +1,36 @@
+.portfolios {
+    .portfolios-items {
+        margin-bottom: 40px;
+    }
+
+    .portfolios-filter {
+        text-align: center;
+        font-size: 18px;
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+
+        .portfolios-filter-link {
+            color: $color-text-light;
+        }
+
+        .portfolios-filter-active {
+            color: $color-text-dark;
+        }
+    }
+
+    .portfolio-item {
+        text-align: center;
+        position: relative;
+    }
+
+    .portfolio-item-detail {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto 15px;
+        padding: 0 30px;
+        display: table;
+    }
+}
