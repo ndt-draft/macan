@@ -3289,7 +3289,11 @@ a:hover {
   color: #fff; }
 
 .logo {
-  float: left; }
+  float: left;
+  height: 80px; }
+  .logo .site-title {
+    margin: 0;
+    line-height: 80px; }
 
 .main-menu {
   float: right;
@@ -3395,8 +3399,12 @@ a:hover {
     padding: 20px 50px;
     border-radius: 3px;
     display: inline-block; }
-  .features .featured-text-container {
-    margin-top: 10%; }
+  .features .featured-text-inside {
+    margin-top: 12%; }
+  .features .featured-title {
+    margin-bottom: 6%; }
+  .features .featured-description {
+    margin-bottom: 11%; }
   .features .featured-image {
     max-width: 100%;
     height: auto; }

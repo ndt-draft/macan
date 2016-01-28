@@ -5,6 +5,12 @@
 
 .logo {
     float: left;
+    height: 80px;
+
+    .site-title {
+        margin: 0;
+        line-height: 80px;
+    }
 }
 
 .main-menu {
