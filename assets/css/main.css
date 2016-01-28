@@ -3461,13 +3461,38 @@ img {
 .portfolios .portfolio-item {
   text-align: center;
   position: relative; }
+  .portfolios .portfolio-item:hover .portfolio-item-content,
+  .portfolios .portfolio-item:hover .portfolio-item-mask {
+    opacity: 1; }
 
-.portfolios .portfolio-item-detail {
+.portfolios .portfolio-item-mask {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  margin: auto 15px;
-  padding: 0 30px;
-  display: table; }
+  height: 100%;
+  background-color: #475a85;
+  margin: 0 15px;
+  opacity: 0;
+  transition: opacity .5s; }
+
+.portfolios .portfolio-item-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 45px;
+  opacity: 0;
+  transition: opacity .5s;
+  color: #fff;
+  width: 100%; }
+
+.portfolios .portfolio-item-title,
+.portfolios .portfolio-item-description {
+  margin-top: 0;
+  margin-bottom: 20px; }
+
+.portfolios .portfolio-item-icon {
+  font-size: 40px;
+  line-height: 1em; }

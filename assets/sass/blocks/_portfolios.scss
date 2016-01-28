@@ -21,16 +21,48 @@
     .portfolio-item {
         text-align: center;
         position: relative;
+
+        &:hover {
+            .portfolio-item-content,
+            .portfolio-item-mask {
+                opacity: 1;
+            }
+        }
     }
 
-    .portfolio-item-detail {
+    .portfolio-item-mask {
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        margin: auto 15px;
-        padding: 0 30px;
-        display: table;
+        height: 100%;
+        background-color: $color-primary;
+        margin: 0 15px;
+        opacity: 0;
+        transition: opacity .5s;
+    }
+
+    .portfolio-item-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0 45px;
+        opacity: 0;
+        transition: opacity .5s;
+        color: $color-white;
+        width: 100%;
+    }
+
+    .portfolio-item-title,
+    .portfolio-item-description {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-item-icon {
+        font-size: 40px;
+        line-height: 1em;
     }
 }
