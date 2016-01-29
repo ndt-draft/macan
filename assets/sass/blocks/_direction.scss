@@ -1,0 +1,20 @@
+.direction {
+    text-align: center;
+
+    .direction-link {
+        color: $color-text-dark;
+    }
+
+    .direction-description {
+        font-weight: 700;
+        font-size: 18px;
+        font-size: 1.8rem;
+    }
+
+    .direction-icon {
+        font-size: 50px;
+        font-size: 5rem;
+        line-height: 35px;
+        line-height: 3.5rem;
+    }
+}

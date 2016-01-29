@@ -3495,3 +3495,49 @@ img {
 .portfolios .portfolio-item-icon {
   font-size: 40px;
   line-height: 1em; }
+
+.direction {
+  text-align: center; }
+  .direction .direction-link {
+    color: #323232; }
+  .direction .direction-description {
+    font-weight: 700;
+    font-size: 18px;
+    font-size: 1.8rem; }
+  .direction .direction-icon {
+    font-size: 50px;
+    font-size: 5rem;
+    line-height: 35px;
+    line-height: 3.5rem; }
+
+.customers {
+  padding: 90px 0; }
+  .customers .customer-avatar-wrapper {
+    text-align: center; }
+  .customers .customer-avatar {
+    border-radius: 50%; }
+  .customers .customer-comment {
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    position: relative;
+    font-style: italic; }
+    .customers .customer-comment:before {
+      content: '\201c';
+      font-size: 50px;
+      font-family: serif;
+      position: absolute;
+      top: 0;
+      left: 0;
+      line-height: 1em; }
+  .customers .customer-name {
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: 700; }
+  .customers .customer-comment,
+  .customers .customer-name {
+    padding-left: 40px; }
+  .customers .column-align-center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none; }

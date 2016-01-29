@@ -1,0 +1,47 @@
+.customers {
+    padding: 90px 0;
+
+    .customer-avatar-wrapper {
+        text-align: center;
+    }
+
+    .customer-avatar {
+        border-radius: 50%;
+    }
+
+    .customer-comment {
+        font-size: 18px;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        position: relative;
+        font-style: italic;
+
+        &:before {
+            content: '\201c';
+            font-size: 50px;
+            font-family: serif;
+            position: absolute;
+            top: 0;
+            left: 0;
+            line-height: 1em;
+        }
+    }
+
+    .customer-name {
+        font-size: 24px;
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+
+    .customer-comment,
+    .customer-name {
+        padding-left: 40px;
+    }
+
+    // http://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3
+    .column-align-center {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+}
