@@ -20,6 +20,7 @@
     "jquery": "~2.1.4",
     "bootstrap-sass": "~3.3.6",
     "components-font-awesome": "~4.5.0",
-    "hover": "Hover#~2.0.2"
+    "hover": "Hover#~2.0.2",
+    "gmaps": "~0.4.22"
   }
 }
