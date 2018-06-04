@@ -9,5 +9,7 @@ Step by step
 * Run `bower install` to install bower packages (jquery, bootstrap-sass, ...)
 * Run `gulp sass:watch & gulp serve` to start watching and start browser sync
 
+# Features
+
 ## Update
 
